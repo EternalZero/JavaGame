@@ -292,7 +292,7 @@ public class Game extends Canvas implements Runnable{
 		g.setColor(Color.yellow);
 		
 		String score = Integer.toString(Score);
-		g.drawString("GamerOver", Game.WIDTH /4, 300);
+		g.drawString("Game Over", Game.WIDTH /4, 300);
 		g.drawString(("Score: "+score),Game.WIDTH-300, 100);	
 		g.drawImage(dead, 100, 250, null);
 		
