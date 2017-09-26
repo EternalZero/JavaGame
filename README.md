@@ -8,3 +8,6 @@ To compile:
   
 To run:
   java Game
+
+Master Class:
+  Game.java
